@@ -50,6 +50,14 @@ SELECT COUNT(*) FROM purchases_valid_customers_invoices;
 -- Result: 805,620 rows (805,620 line-item purchases)
 ------------------------------------------------------------------------------
 
+-- How many unique customers (post-filter)?
+SELECT
+  COUNT(DISTINCT customer_id) AS unique_customers
+FROM purchases_valid_customers_invoices;
+------------------------------------------------------------------------------
+-- Result: 5,881 unique customers
+------------------------------------------------------------------------------
+
 -- How many unique orders (post-filter)?
 SELECT
   COUNT(DISTINCT invoice_id) AS unique_orders
