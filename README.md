@@ -55,23 +55,23 @@ Dataset Source: [Kaggle - Online Retail II](https://www.kaggle.com/datasets/mash
 ## **Project Files**
 
 ### **DataBricks**
-- [`01_column_names.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/01_column_names.sql)
+- [`01_column_names.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/01_column_names.sql)
 Standardized raw column names
-- [`02_customer_filter.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/02_customer_filter.sql)
+- [`02_customer_filter.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/02_customer_filter.sql)
 Filtered out records that were missing customer identifiers
-- [`03_invoice_quantity_filter.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/03_invoice_quantity_filter.sql)
+- [`03_invoice_quantity_filter.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/03_invoice_quantity_filter.sql)
 Filtered out records with negative quantities
-- [`04_order_grain`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/04_order_grain.sql)
+- [`04_order_grain`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/04_order_grain.sql)
 Aggregated line-item purchases to order grain
-- [`05_customer_grain.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/05_customer_grain.sql)
+- [`05_customer_grain.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/05_customer_grain.sql)
 Aggregated orders to customer grain
-- [`06_order_join_customer.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/06_order_join_customer.sql)
+- [`06_order_join_customer.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/06_order_join_customer.sql)
 Joined order grain table with customer grain table on customer_id
-- [`07_lifecycle.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/07_lifecycle.sql)
+- [`07_lifecycle.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/07_lifecycle.sql)
 Calculated lifecycle month for each order
-- [`08_customer_retention.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/08_customer_retention.sql)
+- [`08_customer_retention.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/08_customer_retention.sql)
 Calculated cohort retention rates by lifecycle month
-- [`09_LTV_curve.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/09_LTV_curve.sql)
+- [`09_LTV_curve.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/09_LTV_curve.sql)
 Calculated cohort lifetime value across lifecycle months
 
 ### **Documentation**
