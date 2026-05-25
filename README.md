@@ -133,7 +133,7 @@ As for customer retention, there is a clear (expected) decline as cohorts progre
 
 The December 2009 cohort obviously stood out as the strongest-performing cohort, with a 12-month LTV of $2,229 and a 12-month retention rate of 30.9%.
 
-Overall, LTV accumulation doesn't slow down as quickly as expected, while retention dropoff also does not occur as quickly as expected. Therefore, there is a large portion of long-term customers with long-term purchasing habits.
+Overall, **LTV accumulation doesn't slow down as quickly as expected**, while **retention dropoff also does not occur as quickly as expected**. Therefore, there is a large portion of **long-term customers** with **long-term purchasing habits**.
 
 ---
 
