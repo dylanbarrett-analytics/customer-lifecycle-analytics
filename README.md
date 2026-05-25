@@ -61,7 +61,7 @@ Standardized raw column names
 Filtered out records that were missing customer identifiers
 - [`03_invoice_quantity_filter.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/03_invoice_quantity_filter.sql)
 Filtered out records with negative quantities
-- [`04_order_grain`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/04_order_grain.sql)
+- [`04_order_grain.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/04_order_grain.sql)
 Aggregated line-item purchases to order grain
 - [`05_customer_grain.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/05_customer_grain.sql)
 Aggregated orders to customer grain
