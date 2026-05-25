@@ -48,7 +48,7 @@ Dataset Source: [Kaggle - Online Retail II](https://www.kaggle.com/datasets/mash
 ## **Tools Used**
 
 - ![SQL](https://img.shields.io/badge/SQL-blue) (via **DataBricks**): Data loading, cleaning, merging, and analysis
-- ![Tableau](https://img.shields.io/badge/Tableau-blue) Dashboard design and final visualizations
+- ![Tableau](https://img.shields.io/badge/Tableau-blue): Dashboard design and final visualizations
 
 ---
 
