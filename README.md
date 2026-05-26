@@ -47,14 +47,14 @@ Dataset Source: [Kaggle - Online Retail II](https://www.kaggle.com/datasets/mash
 
 ## **Tools Used**
 
-- ![SQL](https://img.shields.io/badge/SQL-blue) (via **DataBricks**): Data loading, cleaning, merging, and analysis
+- ![SQL](https://img.shields.io/badge/SQL-blue) (via **Databricks**): Data loading, cleaning, merging, and analysis
 - ![Tableau](https://img.shields.io/badge/Tableau-blue): Dashboard design and final visualizations
 
 ---
 
 ## **Project Files**
 
-### **DataBricks**
+### **Databricks**
 - [`01_column_names.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/01_column_names.sql)
 Standardized raw column names
 - [`02_customer_filter.sql`](https://github.com/dylanbarrett-analytics/customer-lifecycle-analytics/blob/main/SQL/02_customer_filter.sql)
